@@ -1,0 +1,118 @@
+
+  
+  .containerzinho{
+    padding: 50px auto;
+    margin: 30px 20px;
+    width: auto;
+   
+   
+    
+  }
+  
+
+
+  h1{
+    justify-content: center;
+    margin-bottom: 45px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: rgb(75, 75, 75);
+    
+  }
+  
+  .gallery-wrap {
+    display: flex;
+    
+     flex-direction: column; 
+  
+    justify-content: center;
+    border-radius: 5px;
+    height: 90vh;
+    width: auto;
+    
+    
+    
+  }
+ 
+  @media (min-width:700px){
+    .gallery-wrap{
+      flex-direction: row;
+      height: 80vh;
+      margin: -10px -20px;
+    }
+  }
+
+  
+  
+
+  .item {
+  
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.8s ease;
+    border: azure 1px solid;
+    
+    align-content: center;
+    justify-content: center;
+    vertical-align: middle;
+    opacity: 0.8;
+    filter: grayscale(150%); /* msie */
+    color: yellow;
+    font-weight: bolder;
+
+    
+    
+  }
+  .escondido{
+  display: none;
+
+}
+
+  .item:hover{
+    flex: 3;
+    color: yellow;
+    box-shadow: 5px 25px 30px gray;
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* msie */
+    filter: grayscale(30%);
+    flex-direction: column;
+    justify-content: space-around;
+
+    
+   
+
+  }
+  .item:hover > .escondido{
+    
+      display: block ;
+    padding: 40px 40px;
+  }
+
+  .item-1 { 
+    background-image: url('https://altamontanha.com/wp-content/uploads/2018/10/Sa%C3%ADda-da-Caverna-Temimina-III-PETAR-Apia%C3%ADSP-Copia.jpg');
+
+  }
+  
+  .item-3 { 
+    background-image: url('https://images.unsplash.com/photo-1520105072000-f44fc083e508?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80');
+  }
+  
+  .item-2 { 
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRO0eHdSEvq_4o5VDI8UKWMnW8KuyMmD3NO8A&usqp=CAU');
+  }
+  
+  .item-4 { 
+    background-image: url('https://images.unsplash.com/photo-1573676048035-9c2a72b6a12a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80');
+  }
+  
+  .item-5 { 
+    background-image: url('https://www.livecareer.com/wp-content/uploads/2019/11/bus-driver-collecting-ticket-1-866x577.jpg');
+  }
+  
+  
